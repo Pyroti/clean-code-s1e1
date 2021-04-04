@@ -73,7 +73,8 @@ button{
   cursor: pointer;
 }
 
-.new-item__button-add:hover {
+.new-item__button-add:hover,
+.task-item__button-edit:hover {
   color: #3a3a3a;
 }
 
@@ -119,7 +120,7 @@ button{
   display: block;
 }
 
-#add-item > .new-item__button-add:hover {
+.new-item__button-add:hover {
   color: #0fc57c;
 }
 
